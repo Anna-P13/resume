@@ -89,7 +89,7 @@ p a {
 }
 
 .learn {
-    width: 268px;
+    width: 100%;
     border: 1px solid #000;
     padding: 8px;
     border-radius: 8px;
@@ -169,8 +169,11 @@ p a {
     .plane {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
         justify-items: first baseline;
+        column-gap: 30px;
+        /* горизонтальный отступ */
+        row-gap: 12px;
+        /* отключает вертикальный отступ */
     }
 
     .footer {
