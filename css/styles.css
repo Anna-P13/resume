@@ -171,9 +171,7 @@ p a {
         grid-template-columns: repeat(2, 1fr);
         justify-items: first baseline;
         column-gap: 30px;
-        /* горизонтальный отступ */
         row-gap: 12px;
-        /* отключает вертикальный отступ */
     }
 
     .footer {
