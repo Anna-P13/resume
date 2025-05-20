@@ -95,7 +95,11 @@ p a {
     border-radius: 8px;
     margin-bottom: 8px;
     text-align: center;
+}
 
+.learn:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
 }
 
 .footer {
@@ -166,9 +170,11 @@ p a {
         margin-bottom: 0;
     }
 
+
     .plane {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
         justify-items: first baseline;
         column-gap: 30px;
         row-gap: 12px;
